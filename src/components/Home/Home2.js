@@ -1,56 +1,40 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+        <Row className="justify-content-center">
+          <Col md={10} lg={8} className="home-about-description">
+            <h1 style={{ fontSize: "2.4em" }}>
+              About <span className="purple">Me</span>
             </h1>
-            <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+            <p className="home-about-body" style={{ textAlign: "center" }}>
+              I'm a final-year{" "}
+              <b className="purple">
+                Software Engineering student at ISSAT Sousse, Tunisia
+              </b>
+              , passionate about building intelligent software that solves
+              real-world problems. With a strong foundation in{" "}
+              <b className="purple">
+                software engineering, backend development, and system design
+              </b>
+              , I'm currently expanding my expertise into{" "}
+              <b className="purple">
+                AI, Machine Learning, and LLM-powered
+                applications&nbsp;
+              </b>
+              with a perticular interest in{" "}
+              <b className="purple">Retrieval-Augmented Generation (RAG)</b> and intelligent systems.
               <br />
               <br />
-              I’m proficient in
-              <i>
-                <b className="purple">
-                  {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
-                </b>
-              </i>
-              — and I enjoy working across both backend and frontend stacks.
-              <br />
-              <br />
-              My key areas of interest include developing
-              <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
-                </b>
-              </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
-              <br />
-              <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              I'm constantly learning, experimenting, and building projects
+              that bridge the gap between{" "}
+              <b className="purple">AI and real-world software</b>, with the
+              goal of growing into an engineer who can develop both robust
+              systems and intelligent applications.
             </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
           </Col>
         </Row>
       </Container>

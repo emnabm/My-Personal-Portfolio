@@ -7,5 +7,6 @@ body {
   font-family: "PT Mono", monospace !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+  /* Navy tones pulled from emna.jpg shirt + soft outdoor light */
+  background-image: linear-gradient(to left, #1a2740, #101820);
 }
