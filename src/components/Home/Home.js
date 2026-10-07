@@ -34,6 +34,9 @@ function Home() {
                 src={Emna}
                 alt="Emna Ben Mahmoud"
                 className="img-fluid home-portrait"
+                loading="eager"
+                fetchpriority="high"
+                decoding="async"
               />
             </Col>
           </Row>
