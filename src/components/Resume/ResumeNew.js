@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import pdf from "../../Assets/CV_Emna_Ben_Mahmoud.pdf";
+import pdf from "../../Assets/emna_CV_pfe.pdf";
 
 function ResumeNew() {
   return (

@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
-import pdf from "../Assets/CV_Emna_Ben_Mahmoud.pdf";
+import pdf from "../Assets/emna_CV_pfe.pdf";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
