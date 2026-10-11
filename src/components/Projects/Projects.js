@@ -7,6 +7,7 @@ import joa from "../../Assets/Projects/joa.png";
 import zoomy from "../../Assets/Projects/publications.png";
 import clubedge from "../../Assets/Projects/chat.png";
 import form_builder from "../../Assets/Projects/form builder.png";
+import ai_agent from "../../Assets/Projects/rag ai agent.png";
 function Projects() {
   return (
     <Container fluid className="project-section" id="projects">
@@ -57,13 +58,21 @@ function Projects() {
               ghLink="https://github.com/emnabm/RAG_chatbot"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ai_agent}
+              isBlog={false}
+              title="RAG AI Agent"
+              description="A Retrieval-Augmented Generation app that answers questions from uploaded PDFs, with source citations: an event-driven pipeline (Inngest): PDF parsing and chunking, embeddings, vector storage in Qdrant, semantic search, and LLM answer generation."
+              ghLink="https://github.com/emnabm/RAG-AI-Agent.git"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={joa}
               isBlog={false}
               title="E-Commerce Platform"
-              description="Full-stack B2C e-commerce platform with JWT authentication, RBAC, and a responsive mobile-first UI. Technologies: Symfony, Nuxt.js, MySQL."
+              description="Full-stack B2C e-commerce platform with JWT authentication, RBAC, and a responsive mobile-first UI.   Technologies: Symfony, Nuxt.js, MySQL."
               ghLink="https://github.com/emnabm/JOA-e-commerce"
             />
           </Col>
